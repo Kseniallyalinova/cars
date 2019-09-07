@@ -1,0 +1,44 @@
+body{
+	font-family: 'Poppins', sans-serif;
+}
+
+*{
+	padding: 0;
+	margin: 0; 
+}
+li{
+	list-style: none;
+	display:flex;
+}
+a{
+	text-decoration: none;
+}
+header{
+	background: ;
+	padding:30px 0;
+}
+.header-container{
+	width: 1400px;
+	margin 0 auto;
+	display: flex;
+	justify-content: space-between;
+}
+.header-container a{
+	color:#000;
+	font-size: 16px;
+	margin-right: 63px;
+	padding:27px 6px;
+}
+.header-container a:hover{
+	background: yellow;
+}
+#menu-checkbox{
+	display: none;
+}
+ul{
+	display: flex;
+}
+nav{
+	margin-top: 20 px;
+}
+

@@ -1,0 +1,54 @@
+* {
+	box-sizing: border-box;
+	
+}
+
+body {
+	
+	font-size: 20px;
+
+}
+
+	
+
+.row:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: "";
+	clear: both;
+	height: 0;
+}
+.row { display:block; }
+
+.header {
+	background: linear-gradient( white, teal);
+	height: 200px;
+	margin-bottom: 10px;
+}
+
+.main-menu li{
+	display:inline-block;
+}
+
+.content {
+	background:  linear-gradient(  teal, white);
+	min-height: 500px;
+	width: 80%;
+	float: left;
+}
+
+.sidebar {
+	background: linear-gradient(  teal, white);
+	min-height: 500px;
+	width: 20%;
+	float: left;
+	padding-left: 10px;
+}
+
+.footer {
+	background:  linear-gradient( teal, black);
+	height: 100px;
+	
+	margin-bottom: 10px;
+}
