@@ -7,6 +7,7 @@ Class Controller_Order Extends Controller_Base
 
              // $this->registry['template']->show('cars');
 			echo "order без аргументов";
+			echo "это надо доделать";
 
         }
 
