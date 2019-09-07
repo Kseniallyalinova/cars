@@ -20,6 +20,6 @@ Class Controller_Order Extends Controller_Base
 
         function hello ()
         {
-        	$a=3+2;
+            $c= 8-3;
         }
 }
