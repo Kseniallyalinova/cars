@@ -19,6 +19,6 @@ Class Controller_Order Extends Controller_Base
 
         function hello ()
         {
-        	//******
+        	$b=5*1;
         }
 }
