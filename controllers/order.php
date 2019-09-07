@@ -16,4 +16,9 @@ Class Controller_Order Extends Controller_Base
         {
         	$this->registry['template']->show('order');
         }
+
+        function hello ()
+        {
+        	//******
+        }
 }
